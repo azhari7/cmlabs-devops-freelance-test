@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: pod-limit-per-node
+spec:
+  hard:
+    pods: "3"
